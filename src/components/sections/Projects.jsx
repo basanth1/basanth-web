@@ -13,7 +13,7 @@ export const Projects=()=>{
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                         <img
-                            src="/projects/plant-ai.png"
+                            src="./projects/plant-ai.png"
                             alt="Plant Disease Detection"
                             className="rounded-lg mb-4 w-full h-40 object-cover"
                         />
@@ -38,7 +38,7 @@ Aimed at assisting farmers with early diagnosis and timely treatment. Integrates
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                          <img
-                            src="/projects/vitacare-app.png"
+                            src="./projects/vitacare-app.png"
                             alt="Plant Disease Detection"
                             className="rounded-lg mb-4 w-full h-40 object-cover"
                         />
@@ -63,7 +63,7 @@ It uses computer vision and NLP to digitize prescriptions and optimize workflows
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                          <img
-                            src="/projects/keeper.png"
+                            src="./projects/keeper.png"
                             alt="Plant Disease Detection"
                             className="rounded-lg mb-4 w-full h-40 object-cover"
                         />
@@ -88,7 +88,7 @@ It allows users to create, view, and delete notes with a fast and responsive int
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                          <img
-                            src="/projects/supply.png"
+                            src="./projects/supply.png"
                             alt="Plant Disease Detection"
                             className="rounded-lg mb-4 w-full h-40 object-cover"
                         />

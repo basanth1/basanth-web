@@ -10,7 +10,7 @@ export const Home=()=>{
         <div className="text-center z-10 px-4">
             <a href="https://www.linkedin.com/in/basanth-kumar-putta" target="_blank" rel="noopener noreferrer">
                 <img
-                    src="/logo.png"
+                    src="./logo.png"
                     alt="Profile"
                     class="mx-auto mb-6 w-48 h-48 rounded-full object-cover shadow-lg border-4 border-transparent hover:border-blue-500 transition duration-300 cursor-pointer"
                 />
@@ -31,7 +31,7 @@ export const Home=()=>{
             </p>
             <div className="flex justify-center space-x-4">
                 <a 
-                    href="/basanth-resume.pdf" 
+                    href="./basanth-resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-cyan-500 text-white py-3 px-6 rounded font-medium relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"

@@ -7,17 +7,17 @@ import "swiper/css/navigation";
 
 export const About = () => {
   const skills = [
-    { name: "React", logo: "/skills/react-removebg-preview.png" },
-    { name: "Express.js", logo: "/skills/expressjs.png" },
-    { name: "BootStrap", logo: "/skills/bootstrap.png" },
-    { name: "TailwindCSS", logo: "/skills/taiwind.png" },
-    { name: "Node.js", logo: "/skills/nodejs.png" },
-    { name: "Python", logo: "/skills/python.png" },
-    { name: "MongoDB", logo: "/skills/mongoDB.png" },
-    { name: "PostgreSQL", logo: "/skills/postgreSQL.png" },
-    { name: "PowerBI", logo: "/skills/powerbi.png" },
-    { name: "Java", logo: "/skills/java.png" },
-    { name: "Flask", logo: "/skills/flask.png" }
+    { name: "React", logo: "./skills/react-removebg-preview.png" },
+    { name: "Express.js", logo: "./skills/expressjs.png" },
+    { name: "BootStrap", logo: "./skills/bootstrap.png" },
+    { name: "TailwindCSS", logo: "./skills/taiwind.png" },
+    { name: "Node.js", logo: "./skills/nodejs.png" },
+    { name: "Python", logo: "./skills/python.png" },
+    { name: "MongoDB", logo: "./skills/mongoDB.png" },
+    { name: "PostgreSQL", logo: "./skills/postgreSQL.png" },
+    { name: "PowerBI", logo: "./skills/powerbi.png" },
+    { name: "Java", logo: "./skills/java.png" },
+    { name: "Flask", logo: "./skills/flask.png" }
   ];
 
   return (
