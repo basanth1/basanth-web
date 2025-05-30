@@ -4,7 +4,7 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 import "../../index.css"
 export const Home=()=>{
     return( 
-    <section id="home" className="min-h-screen flex items-center justify-center relative bg-[url('/home.png')] bg-no-repeat">
+    <section id="home" className="min-h-screen flex items-center justify-center py-20 relative bg-[url('/home.png')] bg-no-repeat">
         <RevealOnScroll>
         
         <div className="text-center z-10 px-4">
