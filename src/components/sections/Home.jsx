@@ -31,10 +31,12 @@ export const Home=()=>{
             </p>
             <div className="flex justify-center space-x-4">
                 <a 
-                    href="./basanth-product-resume.pdf" 
+                    href="./basanth-resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-cyan-500 text-white py-3 px-6 rounded font-medium relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+                    className="bg-gradient-to-r from-cyan-400 to-white-400 text-white py-3 px-6 rounded font-medium relative overflow-hidden 
+             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(34,197,94,0.4),0_0_15px_rgba(34,211,238,0.4)] 
+             transition-all duration-20"
                 >
                     View Resume
                 </a>
@@ -42,6 +44,15 @@ export const Home=()=>{
                  hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.2)] hover:bg-blue-500/10">
                     Contact me
                 </a>
+                <a 
+                href="#certificates"   // 👉 takes you to the certificates section
+                className="bg-gradient-to-r from-white-400 to-cyan-400 text-white py-3 px-6 rounded font-medium relative overflow-hidden 
+             hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(34,197,94,0.4),0_0_15px_rgba(34,211,238,0.4)] 
+             transition-all duration-200"
+                >
+                View Certificates
+                </a>
+
             </div>
         {/* Social Icons Section */}
                     <div className="flex justify-center space-x-6 mt-8 text-3xl text-cyan-500">
