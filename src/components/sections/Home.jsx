@@ -31,7 +31,7 @@ export const Home=()=>{
             </p>
             <div className="flex justify-center space-x-4">
                 <a 
-                    href="./basanth-resume.pdf" 
+                    href="./basanth-product-resume.pdf" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-cyan-400 to-white-400 text-white py-3 px-6 rounded font-medium relative overflow-hidden 
