@@ -48,20 +48,23 @@ export const Certificates = () => {
                 grabCursor={true}
                 spaceBetween={20}
                 slidesPerView={"auto"}
+                autoHeight={true} 
                 className="w-[700px]"
               >
                 {certificates.map((cert, idx) => (
-                  <SwiperSlide
+                 <SwiperSlide
                     key={idx}
-                    className="w-[320px] h-[220px] flex flex-col items-center justify-center 
-                               rounded-xl  overflow-hidden hover:scale-105 transition-all"
+                    className="flex items-center justify-center 
+                              rounded-xl overflow-hidden hover:scale-105 transition-all"
                   >
                     <img
                       src={cert.img}
                       alt={cert.name}
-                      className="w-full h-full object-cover rounded-md"
+                      className="max-h-[700px] w-auto object-contain rounded-md"
                     />
                   </SwiperSlide>
+
+
 
 
                 ))}
