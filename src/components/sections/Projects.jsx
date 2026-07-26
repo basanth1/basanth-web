@@ -13,7 +13,7 @@ export const Projects=()=>{
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all">
                         <img
-                            src="./projects/plant-ai.png"
+                            src="./projects/ocr_logo.png"
                             alt="Plant Disease Detection"
                             className="rounded-lg mb-4 w-full h-40 object-cover"
                         />
