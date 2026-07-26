@@ -7,8 +7,8 @@ import "swiper/css/navigation";
 
 export const Certificates = () => {
   const certificates = [
-    { name: "Databricks GenAI associate", img: "./certificates/databricks-genAI.jpg" }
-    { name: "Fundamental training - circulants", img: "./certificates/Fundamental-training.jpg" }
+    { name: "Databricks GenAI associate", img: "./certificates/databricks-genAI.jpg" },
+    { name: "Fundamental training - circulants", img: "./certificates/Fundamental-training.jpg" },
     { name: "SmartCoder - Smartinterviews", img: "./certificates/smartcoder.jpg" },
     { name: "Merit - Academic excellence", img: "./certificates/merit-certificate.jpg" },
     { name: "IITH Hackathon winner", img: "./certificates/iith win.jpg" },
