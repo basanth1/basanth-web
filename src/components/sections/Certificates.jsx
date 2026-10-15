@@ -7,6 +7,7 @@ import "swiper/css/navigation";
 
 export const Certificates = () => {
   const certificates = [
+    { name: "Databricks Data engineer associate", img: "./certificates/databricks_certificate_de_associate.jpg" },
     { name: "Databricks GenAI associate", img: "./certificates/databricks-genAI.jpg" },
     { name: "Third ranker in Engineering", img: "./certificates/third ranker in btech.jpg" },
     { name: "Fundamental training - circulants", img: "./certificates/Fundamental-training.jpg" },
